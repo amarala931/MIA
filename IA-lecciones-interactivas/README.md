@@ -82,11 +82,11 @@ npm run build:singlefile
 El proyecto utiliza una arquitectura de plugins modulares. Para añadir un nuevo algoritmo:
 
 1. Crea un archivo en `src/algorithms/<mi-algoritmo>.jsx`.
-2. Implementa el esquema documentado en [.antigravity/rules.md](file:///.antigravity/rules.md).
+2. Implementa el esquema documentado en [.antigravity/rules.md](./.antigravity/rules.md).
 3. Regístralo en `src/algorithms/index.js`.
 4. La barra lateral, las pestañas de teoría, el laboratorio y el generador de Python se integrarán automáticamente.
 
 ---
 
 ## 📄 Licencia
-Distribuido bajo licencia MIT con propósitos educativos.
+Distribuido bajo licencia GNU AGPL v3 con propósitos educativos. Consulta el archivo [LICENSE](../LICENSE) para ver sus términos.
